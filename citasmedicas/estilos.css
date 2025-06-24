@@ -1,0 +1,100 @@
+/* estilos.css */
+
+.card:hover {
+    box-shadow: 0 0 12px rgba(0, 123, 255, 0.3);
+    transition: 0.3s;
+}
+
+
+
+/* 🌙 MODO OSCURO */
+body.dark-mode {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+body.dark-mode .table {
+    color: #fff;
+}
+
+body.dark-mode h2 {
+    color: #FCB454;
+    font-weight: bold;
+}
+
+body.dark-mode .btn {
+    color: white;
+    box-shadow:#FCB454 0px 0px 10px;
+    background-color: orangered;
+}
+body.dark-mode .btn:hover {
+    background-color: #FCB454;
+    color: black;
+}
+
+/* Switch modo oscuro */
+.switch-darkmode {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 999;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: #007bff 0px 0px 10px;
+}
+
+.dark-mode {
+    color: #f1f1f1;
+}
+
+.dark-mode .fondo{
+    background-color: #1a202c;
+}
+
+.dark-mode th {
+    background-color: #FCB454;
+    color: black;
+}
+
+.dark-mode table {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode .eliminar {
+    background-color: orangered;
+    color: black;
+}
+
+.dark-mode .eliminar:hover {
+    background-color: rgb(129, 41, 9);
+    color: white;
+}
+
+.dark-mode .editar {
+    background-color: #FCB454;
+    color: orangered;
+}
+
+.dark-mode .editar:hover {
+    background-color: orangered;
+    color: black;
+}
+
+.dark-mode .registrar {
+    background-color: #FCB454;
+    color: black;
+}
+
+.dark-mode .registrar:hover {
+    background-color: orangered;
+    color: white;
+}
+.btn {
+    box-shadow: #e72343 0px 0px 10px;
+    background-color: #e72343;
+}
